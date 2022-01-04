@@ -84,23 +84,23 @@ p {
 
 /* display property */
 
-p {
+/* p {
     position: static;
     top: 20px;
     right: 10px;
-}
+} */
 
 /* div {
     position: absolute;
 } */
 
-a {
+/* a {
     color: red;
 }
 
 a:link {
     color: blue;
-}
+} */
 
 /* div {
     color: green;
@@ -118,6 +118,44 @@ div::after {
     color: yellow;
 } */
 
-p:nth-child(3) {
+/* p:nth-child(3) {
     background: green;
+} */
+
+.square {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    /* box-shadow: 20px 10px 10px 30px yellow; */
+    /* transition: width 2s; */
+    /* transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease; */
+    /* ease - start and end slowly and in middle its fast
+    linear - start, middle and end all are in same rate
+    ease-in - starting is slow
+    ease-out - ending is slow
+    ease-in-out - start and end are slow */
+    /* transition-delay: 5s; */
+
+    /* transform: translate(10px, 20px); */
+    /* transform: translateX(10px);
+    transform: translateY(20px); */
+    
+    /* transform: rotate(10deg);
+    transform: rotateX(10deg);
+    transform: rotateY(10deg); */
+
+    /* transform: scale(2,3);
+    transform: scaleX(2);
+    transform: scaleY(3); */
+
+    /* transform: skew(10deg, 20deg);
+    transform: skewX(10deg);
+    transform: skewY(20deg); */
 }
+
+/* .square:hover {
+    width: 100px;
+} */
+
