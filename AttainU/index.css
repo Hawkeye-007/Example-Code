@@ -159,3 +159,107 @@ div::after {
     width: 100px;
 } */
 
+/* .rect {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, red, yellow 5%, blue 10%);
+    background-image: repeating-linear-gradient(to right, red, yellow 10%);
+    background-image: radial-gradient(red, yellow);
+    background-image: radial-gradient(circle,red 10%, yellow);
+    background-image: repeating-radial-gradient(red, yellow 11%, blue 17%);
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, blue 180deg, blue 270deg, green 270deg);
+} */
+
+/* .parent-rect {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.child-square {
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    margin: 20px;
+} */
+
+.parent-rect{
+    width: 600px;
+    height: 120px;
+    background-color: yellow;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+/* .child-square {
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    margin: 20px;
+} */
+
+.child-square-1 {
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    margin: 20px;
+    /* order: 2; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+
+.child-square-2 {
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    margin: 20px;
+    /* order: 3; */
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+}
+
+.child-square-3 {
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    margin: 20px;
+    /* order: 1; */
+    /* flex-grow: 8; */
+    /* flex-shrink: 7; */
+    /* flex-basis: 200px; */
+    /* flex: flex-grow flex-shrink flex-basis */
+    flex: 3 1 200px
+}
+
+.grid-container {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    /* align-items: space-around; */
+    /* align-items: space-evenly; */
+    /* align-items: space-between; */
+}
+
+.grid-container > div {
+    background-color: blue;
+    border: 1px solid black;
+}
