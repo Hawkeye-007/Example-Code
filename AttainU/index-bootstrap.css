@@ -1,0 +1,27 @@
+/* .index-button-class {
+    background-color: yellow !important;
+} */
+
+/* .btn {
+    background-color: yellow !important;
+} */
+
+.col-lg-4 {
+    background-color: red !important;
+}
+
+.col-md-4 {
+    background-color: yellow !important;
+}
+
+.row {
+    height: 200px;
+    background-color: yellow;
+    border: solid 2px black;
+    margin: 10px;
+}
+
+.col-4 {
+    border: solid 2px black;
+
+}
